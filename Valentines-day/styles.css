@@ -1,0 +1,99 @@
+/* General Reset */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Sour", sans-serif;  /* Apply Sour font */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Sour";
+  src: url("desktop/Valentines-day/sour-font.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Sour";
+  src: url("desktop/Valentines-day/sour-bold.ttf");
+  font-weight: bold;
+}
+
+/* General container styling */
+.container {
+  display: flex;  /* Use flexbox to align elements */
+  flex-direction: column;  /* Stack items vertically */
+  justify-content: center;  /* Center items horizontally */
+  align-items: center;  /* Center items vertically */
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* Silly Billy Charlie image */
+#silly-billy-charlie {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px; /* Adds space between image and text */
+}
+
+/* Heading Styling (same as "Thanks for being my Valentine") */
+h1 {
+  font-size: 4rem;
+  color: #333;
+  font-family: "Sour", sans-serif;
+  margin: 20px 0; /* Adds spacing around the heading */
+}
+
+/* Button Styling */
+button {
+  border-radius: 8px;
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  min-width: 150px;
+  font-family: "Sour", sans-serif;  /* Apply Sour font to buttons */
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+/* "Yes" Button */
+#yes-btn {
+  background-color: #4caf50;  /* Green */
+  color: white;
+}
+
+#yes-btn:hover {
+  background-color: #45a049;
+}
+
+/* "No" Button */
+#no-btn {
+  background-color: #f44336;  /* Red */
+  color: white;
+}
+
+#no-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Image Styling */
+#parked-car {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
